@@ -5,8 +5,8 @@ from fastapi import  status, Body
 from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 
-from service.model import GroqProvider, openai_client
-from service.preprocessing import preprocess_text
+from model import GroqProvider, openai_client
+from preprocessing import preprocess_text
 
 
 logging.basicConfig(
