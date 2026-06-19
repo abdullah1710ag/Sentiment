@@ -1,5 +1,9 @@
-Flask==2.3.3 
-transformers==4.38.2 
-torch==2.2.1
-langdetect==1.0.9
-gunicorn==21.2.0
+fastapi
+uvicorn
+groq
+gdown
+pydantic
+numpy
+pandas
+emoji
+optimum[onnxruntime]
